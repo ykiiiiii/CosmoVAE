@@ -25,10 +25,18 @@ python generate_dataset.py
 python train.py
 ```
 ## Prediction
-Our trained weights can downloads [here](https://drive.google.com/file/d/1WEPpDZNWHFt708ssoVervP-xlFr4nQ-j/view?usp=sharing) 
+There are two parameters for the prediction program.
 ```
-python generate_dataset.py
+weight_dir   -  the path and name of your weight 
+index         -  the index of test image 
 ```
+For example, you can run
+```
+python prediction.py--weight_dir './2weights.09-2.05.h5' \
+                    --index 0
+```
+Our trained weights can be downloaded [here](https://drive.google.com/file/d/1WEPpDZNWHFt708ssoVervP-xlFr4nQ-j/view?usp=sharing) 
+
 <img src="https://github.com/ykiiiiii/CosmoVAE/blob/master/data/img_2.png" alt="acd_commander15" width="800">
 
 
