@@ -25,6 +25,10 @@ python generate_dataset.py
 python train.py
 ```
 ## Prediction
+Our trained weights can downloads [here](https://drive.google.com/file/d/1WEPpDZNWHFt708ssoVervP-xlFr4nQ-j/view?usp=sharing) 
+```
+python generate_dataset.py
+```
 ## Cite
 Please cite our paper if you use this code in your own work:
 ```
