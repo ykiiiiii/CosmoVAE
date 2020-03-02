@@ -29,6 +29,9 @@ Our trained weights can downloads [here](https://drive.google.com/file/d/1WEPpDZ
 ```
 python generate_dataset.py
 ```
+<img src="https://github.com/ykiiiiii/CosmoVAE/blob/master/data/img_2.png" alt="acd_commander15" width="800">
+
+
 ## Cite
 Please cite our paper if you use this code in your own work:
 ```
