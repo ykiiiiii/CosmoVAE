@@ -15,7 +15,7 @@ In order to generate dataset, one need to download the archive file from Planck 
 One also need to download the weight of Vgg-16 model from: [VGG 16 weights](https://drive.google.com/open?id=1HOzmKQFljTdKWftEP-kWD7p2paEaeHM0) for training and also put it into "data" folder.
 
 ## Generate dataset
-Make sure two archive files from Planck Legacy Archive are located in "./data"
+Make sure two archive files from Planck Legacy Archive are located in "data" folder
 ```
 python generate_dataset.py
 ```
@@ -28,11 +28,11 @@ python train.py
 There are two parameters for the prediction program.
 ```
 weight_dir   -  the path and name of your weight 
-index         -  the index of test image 
+index        -  the index of test image 
 ```
 For example, you can run
 ```
-python prediction.py--weight_dir './2weights.09-2.05.h5' \
+python prediction.py--weight_dir '2weights.09-2.05.h5' \
                     --index 0
 ```
 Our trained weights can be downloaded [here](https://drive.google.com/file/d/1WEPpDZNWHFt708ssoVervP-xlFr4nQ-j/view?usp=sharing) 
